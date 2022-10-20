@@ -136,3 +136,4 @@ celery -A TestCelery beat -l INFO
 ```git
 celery -A TestCelery beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler
 ```
+Important Link: https://www.nickmccullum.com/celery-django-periodic-tasks/#periodic-tasks
